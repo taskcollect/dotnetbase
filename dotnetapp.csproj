@@ -1,0 +1,11 @@
+<Project DefaultTargets="Build" Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>dotnetapp</RootNamespace>
+    <OutputPath>./bin</OutputPath>
+    <OutputType>exe</OutputType>
+  </PropertyGroup>
+  <Target Name="Build">
+    <Csc Sources="Program.cs"/>
+  </Target>
+</Project>
