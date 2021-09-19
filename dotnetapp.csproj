@@ -6,6 +6,6 @@
     <OutputType>exe</OutputType>
   </PropertyGroup>
   <Target Name="Build">
-    <Csc Sources="Program.cs"/>
+    <Csc Sources="./src/main.cs"/>
   </Target>
 </Project>
